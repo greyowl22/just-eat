@@ -21,7 +21,7 @@ def getHTMLvalue(el, css, atr='text', index=0):
         return ''
 
 baseurl = 'http://www.just-eat.co.uk'
-postcodes = ['pr1']
+postcodes = ['fy8']
 
 for postcode in postcodes:
     url = 'http://www.just-eat.co.uk/area/' + postcode
