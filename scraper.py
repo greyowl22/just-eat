@@ -20,7 +20,7 @@ def getHTMLvalue(el, css, atr='text', index=0):
     except:
         return ''
 
-baseurl = 'http://www.just-eat.co.uk'
+baseurl = 'http://www.just-eat.co.uk/area'
 postcodes = ['fy8']
 
 for postcode in postcodes:
